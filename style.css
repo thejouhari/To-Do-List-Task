@@ -1,0 +1,65 @@
+.line-through{
+    text-decoration:line-through;
+    color: rgba(128, 128, 128, 0.692);
+}
+
+h1{
+    font-size: 45px;
+}
+
+.all-sections{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:fit-content;
+    padding:10px 50px;
+    margin: auto;
+    border:7px solid rgb(128, 128, 128);
+    border-radius: 30px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+}
+
+.list ul{
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-right: 50px;
+}
+.list ul li{
+    border:2.5px solid rgb(140, 138, 138);
+    display: flex;
+    align-items: center;
+    padding:10px 30px;
+    border-radius: 20px;
+    gap:8px;
+    background-color: rgb(227, 229, 237);
+    list-style-type:none;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    gap:5px;
+}
+
+.input input{
+    border:7px solid rgb(182, 182, 44);
+    border-radius: 20px;
+    padding:15px 50px;
+    text-align: center;
+}
+
+.input button{
+    border:7px solid rgb(29, 148, 51);
+    border-radius: 20px;
+    padding:10px 15px;
+    text-align: center;
+    color:rgb(29, 148, 51);
+    font-weight: 700;
+}
